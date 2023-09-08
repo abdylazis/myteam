@@ -1,0 +1,70 @@
+.btn {
+  padding: 9px 33px 11px 32px;
+  border-radius: 24px;
+  font-family: $main-ff;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 28px;
+}
+
+.primary-btn {
+  border-radius: 24px;
+  border: 2px solid $white-color;
+  color: $white-color;
+  transition: all 0.3s ease;
+}
+
+.primary-btn:hover {
+  border-radius: 24px;
+  background: $white-color;
+  color: $dark-green;
+}
+
+.primary-btn:active {
+  border-radius: 24px;
+  border: 2px solid $white-color;
+  color: $white-color;
+  background-color: inherit;
+}
+
+.prim-btn {
+  border-radius: 24px;
+  border: 2px solid $sacra-green;
+  color: $sacra-green;
+  transition: all 0.3s ease;
+}
+
+.prim-btn:hover {
+  border-radius: 24px;
+  background: $sacra-green;
+  color: $white-color;
+}
+
+.prim-btn:active {
+  border-radius: 24px;
+  border: 2px solid $sacra-green;
+  color: $sacra-green;
+  background-color: inherit;
+}
+
+.secondary-btn {
+  border-radius: 24px;
+  border: 2px solid $white-color;
+  background: $white-color;
+  color: $dark-green;
+  transition: all 0.3s ease;
+}
+
+.secondary-btn:hover {
+  border-radius: 24px;
+  background: $rapture-blue;
+  color: $dark-green;
+}
+
+.secondary-btn:active {
+  border-radius: 24px;
+  border: 2px solid $white-color;
+  background: $white-color;
+  color: $dark-green;
+}

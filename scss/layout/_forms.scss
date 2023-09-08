@@ -1,0 +1,478 @@
+.her {
+  background-color: $midnight-green;
+}
+.container {
+}
+.her-container {
+  display: flex;
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+  justify-content: space-between;
+  position: relative;
+}
+
+.her-size {
+  width: 100%;
+  max-width: 600px;
+}
+
+.her-h1 {
+  color: $white-color;
+  font-family: $main-ff;
+  font-size: 100px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 100px; /* 100% */
+}
+.her-sp {
+  color: $light-corol;
+  font-family: $main-ff;
+  font-size: 100px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 100px;
+}
+.her-content {
+  width: 100%;
+  max-width: 400px;
+  display: flex;
+  flex-direction: column;
+  gap: 7.9rem;
+}
+.her-hr {
+  width: 50px;
+  height: 4px;
+  background: $rapture-blue;
+}
+.her-p {
+  color: $white-color;
+  font-family: $main-ff;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 28px; /* 155.556% */
+}
+// her end
+
+.buil {
+  background-color: $sacra-green;
+}
+.build-container {
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+  display: flex;
+  justify-content: space-between;
+}
+.container {
+}
+.build-content {
+  width: 100%;
+  max-width: 445px;
+  display: flex;
+  flex-direction: column;
+  gap: 5rem;
+}
+.build_hr {
+  width: 50px;
+  height: 4px;
+  background: $light-corol;
+}
+.build_h2 {
+  color: $white-color;
+  font-family: $main-ff;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 48px; /* 100% */
+}
+.build_list {
+  margin-top: 5rem;
+}
+.build_ul {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+.build_li {
+  display: flex;
+}
+.build_img {
+  margin-right: 23px;
+}
+.ul_li_div {
+  width: 100%;
+  max-width: 445px;
+}
+.ul_li_h4 {
+  color: $light-corol;
+  font-family: $main-ff;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 28px; /* 155.556% */
+  margin-bottom: 1.6rem;
+}
+.ul_li_p {
+  color: $white-color;
+  font-family: $main-ff;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 25px; /* 166.667% */
+}
+// build end
+
+.real {
+  background-color: $dark-green;
+}
+.real-container {
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 9rem;
+}
+.container {
+}
+.real_content {
+  width: 100%;
+  max-width: 932px;
+  text-align: center;
+}
+.real_h2 {
+  color: $white-color;
+  font-family: $main-ff;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 48px; /* 100% */
+}
+.real_sp {
+  color: $rapture-blue;
+  font-family: $main-ff;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 48px;
+}
+.real_con {
+}
+.real_ul {
+  display: flex;
+  flex-direction: row;
+  gap: 3rem;
+}
+.real_li {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.real_p {
+  color: $white-color;
+  text-align: center;
+  font-family: $main-ff;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 25px; /* 166.667% */
+  width: 100%;
+  max-width: 350px;
+  margin-bottom: 2.4rem;
+}
+.real_h4 {
+  color: $rapture-blue;
+  text-align: center;
+  font-family: $main-ff;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 28px; /* 155.556% */
+}
+.real_li_p {
+  color: $white-color;
+  text-align: center;
+  font-family: $main-ff;
+  font-size: 13px;
+  font-style: italic;
+  font-weight: 500;
+  line-height: 18px; /* 138.462% */
+  margin-bottom: 3.2rem;
+}
+.real_img {
+  border-radius: 50%;
+}
+// real end
+
+// read start
+.read {
+  background-color: $light-corol;
+}
+.read-container {
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+}
+.container {
+}
+.read-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.read-h1 {
+  color: $sacra-green;
+  font-family: $main-ff;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 48px; /* 100% */
+}
+.btn {
+}
+.prim-btn {
+}
+// read end
+
+// media screen and max-width:768px start
+@media screen and (max-width: 768px) {
+  .her-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .her-size {
+    width: 100%;
+    max-width: 340px;
+    text-align: center;
+  }
+
+  .her-h1 {
+    color: $white-color;
+    font-family: $main-ff;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 100px; /* 100% */
+  }
+  .her-sp {
+    color: $light-corol;
+    font-family: $main-ff;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 100px;
+  }
+  .her-hr {
+    display: none;
+  }
+  .her-content {
+    width: 100%;
+    max-width: 457px;
+    margin-top: 2.4rem;
+  }
+  .her-p {
+    text-align: center;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 28px; /* 186.667% */
+  }
+
+  //   build start media
+
+  .build-container {
+    display: flex;
+    flex-direction: column;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    gap: 6rem;
+  }
+  .build-content {
+    width: 100%;
+    max-width: 445px;
+  }
+  .build_h2 {
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 32px; /* 100% */
+  }
+  .real-container {
+    display: flex;
+    flex-direction: column;
+    gap: 8rem;
+  }
+  .real_content {
+    width: 100%;
+    max-width: 573px;
+    text-align: center;
+  }
+  .real_h2 {
+    color: $white-color;
+    font-family: $main-ff;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 48px; /* 100% */
+  }
+  .real_sp {
+    color: $rapture-blue;
+    font-family: $main-ff;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 48px;
+  }
+  .real_ul {
+    display: flex;
+    flex-direction: column;
+    gap: 8rem;
+  }
+  .real_li {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .real_p {
+    width: 100%;
+    max-width: 573px;
+    font-size: 15px;
+  }
+  .real_h4 {
+  }
+  .real_li_p {
+  }
+  .real_img {
+  }
+
+  //   read start
+
+  .read-h1 {
+    color: $sacra-green;
+    font-family: $main-ff;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 48px; /* 100% */
+  }
+}
+// media screen and max-width:530px start
+@media screen and (max-width: 530px) {
+  .her-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .her-size {
+    width: 100%;
+    max-width: 240px;
+    text-align: center;
+  }
+
+  .her-h1 {
+    color: $white-color;
+    font-family: $main-ff;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 100px; /* 100% */
+  }
+  .her-sp {
+    color: $light-corol;
+    font-family: $main-ff;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 100px;
+  }
+  .her-hr {
+    display: none;
+  }
+  .her-content {
+    width: 100%;
+    max-width: 327px;
+    margin-top: 2.8rem;
+  }
+  .her-p {
+    text-align: center;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 28px; /* 186.667% */
+  }
+  //   build start media
+
+  .build-container {
+    display: flex;
+    flex-direction: column;
+    gap: 5.6rem;
+  }
+  .build-content {
+    width: 100%;
+    max-width: 240px;
+  }
+  .build_ul {
+    display: flex;
+    flex-direction: column;
+  }
+  .build_li {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    gap: 4.8rem;
+  }
+  .build_img {
+    text-align: center;
+  }
+  .ul_li_div {
+    width: 100%;
+    max-width: 327px;
+  }
+  .real_content {
+    width: 100%;
+    max-width: 327px;
+    text-align: center;
+  }
+  .real_h2 {
+    color: $white-color;
+    font-family: $main-ff;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 48px; /* 100% */
+  }
+  .real_sp {
+    color: $rapture-blue;
+    font-family: $main-ff;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 48px;
+  }
+  .real_p {
+    width: 100%;
+    max-width: 327px;
+    font-size: 15px;
+  }
+
+  //   read start
+
+  .read-content {
+    display: flex;
+    flex-direction: column;
+    gap: 2.4rem;
+  }
+  .read-h1 {
+    color: $sacra-green;
+    font-family: $main-ff;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 48px; /* 100% */
+    text-align: center;
+  }
+}
